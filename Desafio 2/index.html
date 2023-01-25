@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="animated">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Inter:wght@400;500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="left">
+            <button id="btn-360" onclick="toggle()">
+                <img src="./assets/360.svg" alt="clique nesse botão para animar a imagem">
+            </button>
+            <button id="btn-close" onclick="toggle()">
+                <img src="./assets/close.svg" alt="parar a animação do sofá">
+            </button>
+           <img id="static" src="./assets/sofa.jpg" alt="Imagem de um sofá de cor rosé">
+           <img id="animated" src="./assets/sofa.gif" alt="Gif do sofá em 360°">
+        </div>
+
+        <div id="rigth">
+            <h4 id="cod">
+                CÓDIGO 42404
+            </h4>
+            <h1>
+                Sofá Margot II - Rosé
+            </h1>
+            <p class="price">
+                R$ 4.000
+            </p>
+            <button class="add-card">
+                ADICIONAR À CESTA
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        function toggle(){
+            document.documentElement.classList.toggle('animated')
+        }
+    </script>
+</body>
+</html>
