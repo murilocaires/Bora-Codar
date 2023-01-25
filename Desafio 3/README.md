@@ -5,7 +5,7 @@
 
 ## :scroll:  Projeto
 
-O projeto foi elaborado durante o programa [#boraCodar](https://boracodar.dev/) da [Rocketseat](https://app.rocketseat.com.br/) no desafio 02.
+O projeto foi elaborado durante o programa [#boraCodar](https://boracodar.dev/) da [Rocketseat](https://app.rocketseat.com.br/) no desafio 03.
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
