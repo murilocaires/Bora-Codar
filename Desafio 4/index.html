@@ -4,17 +4,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="stylesheet" href="style.css">
+    
     <title>Chat</title>
 </head>
 <body>
-    <div class="app">
+    <div class="container">
         <header>
             <div class="data-profile">
-                <img class="foto" src="./assets/Avatar.png" alt="foto de perfil do amigo">
+                <img class="foto" src="./assets/Avatar.png" 
+                alt="foto de perfil do amigo">
                 <div class="user-name">
                     <h1>Mayk Brito</h1>
                     <div class="status">
@@ -33,10 +38,12 @@
                 <div class="data-message"> 
                     <p>Mayk - 11:30</p>
                 </div>
+
                 <div class="message-received">
                     <p>E aí? Conseguiu resolver o desafio? </p>
                 </div>
             </div>
+            
             <div class="chat-box-sent">
                 <div class="data-message"> 
                         <p>Você - 11:31</p>
@@ -46,12 +53,13 @@
                 </div>
             </div> 
         </div>
-        <div class="message-input">
+        <form class="message-input">
             <input  placeholder="Digite sua mensagem" type="text">
             <button>
-                    <img src="./assets/send.svg" alt="icone de enviar">
+                <img src="./assets/send.svg" alt="icone de enviar">
             </button>
-        </div> 
+        </form> 
+
     </div>
 </body>
 </html>
