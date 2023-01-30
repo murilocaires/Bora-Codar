@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background: #1A1924;
+    padding: 32px 72px;
+    height: 100vh;
+
+    color: #E1E1E6;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    gap: 30px;
+}
+.app{
+    width: 880px;
+    height: 76px;
+}
+
+header{
+    width: 880px;
+    height: 76px;
+
+    background: #1A1924;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    /*position: fixed;
+    top: 5%%;*/
+}
+
+header h1{
+    width: 109px;
+    height: 19px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+header p {
+    line-height: 14px;
+    text-align: Center;
+}
+.status{
+    width: 46px;
+    height: 14px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;   
+}
+
+.user-name p{
+    width: 34px;
+    line-height: 14px;
+    color: #00B37E;
+}
+.data-profile{
+    width: 880px;
+    height: 48px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    
+}
+.foto{
+    width: 48px;
+    height: 48px;
+}
+.user-name{
+    width: 780px;
+    height: 37px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    
+}
+button{
+    background: transparent;
+    border: 0;
+    cursor:pointer;
+    width: 20px;
+    height: 20px;
+}
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/*CAIXA DE MENSAGEM DA ESQUERDA (nome, horário, balão de mensagem)*/
+.chat-box-received{
+    width: 880px;
+    height: 66px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/*Mensagem da ESQUERDA (balão de mensagem, e o texto)*/
+.message-received{
+    max-width: 350px;
+    height: auto;
+    padding: 14px;
+
+    background-color: #633BBC;
+    border-radius: 0 8px 8px 8px;
+
+    display: flex;
+    word-break: break-word;
+    align-items: center;
+}
+
+/*Caixa de mensagem da DIREITA (nome, horário, balão de mensagem)*/
+.chat-box-sent{
+    width: 880px;
+    height: 66px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+/*Mensagem da DIREITA (balão de mensagem, e o texto)*/
+.message-sent{
+    max-width: 350px;
+    height: auto;
+    padding: 14px;
+
+    background: #07847E;
+    border-radius: 8px 8px 0px 8px;
+
+    display: flex;
+    word-break: break-word;
+    align-items: center;
+    
+}
+
+.message-input{
+
+    width: 880px;
+    height: 52px;
+    padding: 14px 24px;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+    position: fixed;
+    bottom: 5%;
+    
+    gap: 8px;
+
+
+    background: #282843;
+    border-radius: 999px;
+}
+.message-input input{
+    color: white;
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 10px;
+
+    width: 880px;
+    height: 52px;
+
+    background: #282843;
+    border-radius: 999px;
+}
+.message-input input:focus{
+    outline: none!important;
+}
+
+.message-input p{
+    width: 798px;
+    height: 14px;
+}
+.message-input button{
+    background: transparent;
+    border: 0;
+    position: absolute;
+    right: 3.13%;
+}
